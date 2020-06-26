@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:200,400,700,800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 13px;
+    background-color: #ccc;
+}
+
+nav ul{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    list-style: none;
+    padding: 5px;
+}
+
+.logo img {
+    float: right;
+}
+
+li {
+    padding: 10px;
+}
+
+.nav-link{
+    font-size: 1em;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.main {
+    background-color: yellow;
+    height: 50em;
+    padding-top: 2em;
+
+}
+
+h2 {
+    text-align: center;
+    padding-top: 50px;
+    font-size: 50px;
+}
+
+#sub-image {
+    width: 15%;
+    height: 15%;
+    margin-left: 15em;
+}
+
+.main-content {
+    display: flex;
+    justify-content: column;
+    padding: 20px;
+}  
+
+.link-button {
+    text-decoration: none;
+    text-align: center;
+    background: white;
+    cursor: pointer;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    color: black;
+    font-size: 1em;
+    border-radius: 25px;
+    margin-left: 40%;
+    /* margin-top: 80%; */
+    padding: 15px 30px;
+}
+
+
+
+.about li {
+    color: grey;
+}
+
+/* #about-container  {
+    display: flex;
+    justify-content: column;
+    padding: 40px;
+} */
+
+#about-container select {
+    color: grey;
+    border: 1px grey;
+}
+
+#about-container ul {
+    list-style: none;
+}
+
+#about-container {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 10px;
+    padding: 3em 20em;
+}
+
+#footer {
+    background-color: black;
+    color: white;
+}
+
+#footer ul {
+    list-style: none;
+    display: flex;
+    justify-items: column;
+    padding: 1em 20em;
+}
